@@ -11,6 +11,7 @@ class Controller:
         """ Handler per gestire creazione del grafo """""
         self._model.crea_grafo(self._view.dd_anno.value)
 
+
         self._view.update()
 
 
